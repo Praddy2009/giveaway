@@ -1,0 +1,79 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("./imgs/4281838.jpg");    
+}
+
+a{
+    color: rgb(102, 159, 182);
+}
+
+.App{    
+    display: flex;    
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Appbar{
+    width: 95vw;
+    
+}
+.Content{
+    width: 95vw;    
+    
+}
+.Appfooter{
+    width: 95vw;
+}
+
+.appbar-wrapper{
+    padding: 10px 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(102, 159, 182);
+    background-color: rgba(255, 255, 255, 0.924);
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.accordionimg{
+    width: 200px;
+    height: 120px;
+    background-image: url("./imgs/black.gif");
+}
+
+.footer-wrapper{
+    padding: 10px 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(102, 159, 182);
+    background-color: rgba(255, 255, 255, 0.924);
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.margin{
+    margin-right: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .App{
+        height: 100vh;
+    }
+    .Appbar{
+        width: 70vw;
+        
+    }
+    .Content{
+        width: 70vw;    
+        
+    }
+    .Appfooter{
+        width: 70vw;
+    }
+  }
